@@ -2,7 +2,7 @@ var responses = document.querySelector('#response');
 
 async function apiCall () {
     
-    const data =  await fetch(`http://www.boredapi.com/api/activity/`, {
+    const data =  await fetch(`https://www.boredapi.com/api/activity/`, {
         headers : {
             "Accept" : "application.json"
         }
